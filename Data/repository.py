@@ -5,7 +5,7 @@ from Data.models import Oseba, OsebaDTO, OsebafullDTO, Emotion, Vprasanje, Mozni
 from typing import List
 
 # Preberemo port za bazo iz okoljskih spremenljivk
-DB_PORT = os.environ.get('POSTGRES_PORT', 5432)
+DB_PORT = os.environ.get('POSTGRES_PORT', 443)
 
 ## V tej datoteki bomo implementirali razred Repo, ki bo vseboval metode za delo z bazo.
 
